@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# Simple Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive **Task Manager web application** built using **React** and **Bootstrap**.  
+The application allows users to manage tasks efficiently using a **Kanban-style board** with full **CRUD operations**, as per the given assignment requirements.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Add new tasks  
+- View tasks by status  
+- Edit existing tasks  
+- Delete tasks  
+- Task categorization:
+  - To Do
+  - In Progress
+  - Done
+- Data persistence using **localStorage**
+- Fully responsive for all devices (mobile, tablet, desktop)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** React.js  
+- **Styling :** Custom CSS  
+- **Icons:** React Icons  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Storage:** Browser Local Storage  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── components/
+│ ├── Sidebar.js
+│ ├── TaskBoard.js
+│ └── TaskCard.js
+| └── TaskModal.js
+│
+├── App.js
+├── App.css
+└── index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+yaml
+Copy code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ▶️ How to Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+```bash
+git clone <your-github-repository-link>
+Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+cd task-manager
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+npm install
+Start the application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm start
+The application will run on:
 
-## Learn More
+arduino
+Copy code
+http://localhost:3000
+📱 Responsive Design
+Uses Bootstrap grid system for responsive layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kanban board supports horizontal scrolling on smaller screens
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Optimized for:
 
-### Code Splitting
+Mobile devices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Tablets
 
-### Analyzing the Bundle Size
+Laptops
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Desktops
 
-### Making a Progressive Web App
+💡 Design Implementation
+The UI is developed to closely match the shared mock-up design, including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Sidebar navigation
 
-### Advanced Configuration
+Search bar with icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Task cards with edit and delete actions
 
-### Deployment
+Clean and modern dashboard layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🧠 Key Highlights
+No backend used (as per assignment requirement)
 
-### `npm run build` fails to minify
+All task data stored using localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Modular and reusable React components
+
+Clean and readable code structure
+
+📌 Future Enhancements (Optional)
+Drag and drop functionality for tasks
+
+Backend integration
+
+User authentication
+
+Advanced filtering and search
+
+👤 Author
+Singamsetti Syamanth Uma Sai Kiran
+B.Tech Student | Frontend Developer
+
+✅ Assignment Checklist
+UI matches the provided mock-up
+
+CRUD operations implemented
+
+Application runs locally
+
+Responsive across all devices
+
+Uses preferred frontend framework
+
